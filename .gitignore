@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/ErrorHandling/ErrorHandling/obj
+/ErrorHandling/ErrorHandling/bin/Debug/net6.0
+/ErrorHandling/.vs
+/ErrorHandling/ErrorHandling.Core/obj
+/ErrorHandling/ErrorHandling.Infrastructure/bin/Debug/net6.0
+/ErrorHandling/ErrorHandling.Infrastructure/obj
