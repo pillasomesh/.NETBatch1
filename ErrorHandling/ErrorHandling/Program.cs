@@ -20,6 +20,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+//Register Exception handler Middleware
 app.UseMiddleware<ExceptionMiddleware>();
 app.UseHttpsRedirection();
 

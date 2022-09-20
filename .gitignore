@@ -8,3 +8,5 @@
 /ErrorHandling/ErrorHandling.Core/obj
 /ErrorHandling/ErrorHandling.Infrastructure/bin/Debug/net6.0
 /ErrorHandling/ErrorHandling.Infrastructure/obj
+/ErrorHandling/ErrorHandling.Core/bin/Debug/net6.0
+/.vs
