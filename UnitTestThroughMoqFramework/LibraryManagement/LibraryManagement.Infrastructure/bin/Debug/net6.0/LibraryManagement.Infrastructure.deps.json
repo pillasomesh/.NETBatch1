@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "LibraryManagement.Infrastructure/1.0.0": {
+        "dependencies": {
+          "LibraryManagement.Core": "1.0.0"
+        },
+        "runtime": {
+          "LibraryManagement.Infrastructure.dll": {}
+        }
+      },
+      "LibraryManagement.Core/1.0.0": {
+        "runtime": {
+          "LibraryManagement.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LibraryManagement.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LibraryManagement.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

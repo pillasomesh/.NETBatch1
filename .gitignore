@@ -10,3 +10,12 @@
 /ErrorHandling/ErrorHandling.Infrastructure/obj
 /ErrorHandling/ErrorHandling.Core/bin/Debug/net6.0
 /.vs
+/UnitTestThroughMoqFramework/LibraryManagement/.vs
+/UnitTestThroughMoqFramework/LibraryManagement/LibraryManagement/bin/Debug/net6.0
+/UnitTestThroughMoqFramework/LibraryManagement/LibraryManagement/obj
+/UnitTestThroughMoqFramework/LibraryManagement/LibraryManagement.Core/bin/Debug/net6.0
+/UnitTestThroughMoqFramework/LibraryManagement/LibraryManagement.Core/obj
+/UnitTestThroughMoqFramework/LibraryManagement/LibraryManagement.Infrastructure/obj
+/UnitTestThroughMoqFramework/LibraryManagement/LibraryManagement.UnitTests/bin/Debug/net6.0
+/UnitTestThroughMoqFramework/LibraryManagement/LibraryManagement.UnitTests/obj
+/UnitTestThroughMoqFramework/LibraryManagement/packages
