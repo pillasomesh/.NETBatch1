@@ -1,5 +1,7 @@
 using LibraryManagement.Core.Contracts;
+using LibraryManagement.DataStore;
 using LibraryManagement.Infrastructure;
+using MediatR;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,7 +9,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddScoped(typeof(IBookService), typeof(BookService));
 builder.Services.AddScoped(typeof(IEmailSender), typeof(EmailSender));
 builder.Services.AddScoped(typeof(IAccountService), typeof(AccountService));
-
+builder.Services.AddSingleton<FakeDataStore>();
+builder.Services.AddMediatR(typeof(Program));
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
